@@ -1,0 +1,46 @@
+
+html {
+  /* px 表示 “像素（pixels）”: 基础字号为 10 像素 */
+  font-size: 20px;
+  /* Google fonts 输出的 CSS */
+  font-family: 'Open Sans', sans-serif;
+  background-color: #445566;
+}
+
+li {
+  font-size: 10px;
+  /* line-height 后而可以跟不同的参数，如果是数字，就是当前字体大小乘上数字 */
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+p{
+	color:red;	
+	font-style:"黑体"
+	width:300px
+}
+
+h1 {
+
+	padding: 20px 0;    /*上下内边距设置为 20 像素*/
+	color: #00539F;   /*字体颜色*/
+	text-shadow: 3px 4px 1px black;   /*字体阴影*/
+	
+	font-size: 60px;   /*字体大小*/
+	text-align: center;    /*居中*/
+}
+
+body {
+  width: 600px;   /* 强制页面永远保持 600 像素宽*/
+  margin: 10px auto;  /*第一个值代表元素的上方和下方，而第二个值代表左边和右边*/
+  padding: 10px 20px 20px 20px;   /*上、右、下、左的顺序排列*/
+  border: 1px solid black;   /*直接为 body 设置 5 像素的黑色实线边框*/
+  background-color:#eeff00
+}
+
+
+img{
+	margin: 0 auto;     /*居中显示*/
+	display: block;
+}
+
